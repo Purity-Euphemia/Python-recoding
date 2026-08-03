@@ -1,5 +1,5 @@
 try:
-    answer = 10 / 20
+    answer = 10 / 0
     print(answer)
 
 except ZeroDivisionError:
