@@ -1,0 +1,221 @@
+Core Features (MVP)
+
+These are the features I'd build first.
+
+User Registration & Login
+Sign up
+Log in
+Reset password
+Profile management
+Digital Queue Joining
+Join a queue remotely
+Choose a service
+Receive a queue number
+Live Queue Tracking
+Current number being served
+Your position
+Estimated waiting time
+Real-Time Notifications
+"You are 5 people away."
+"Please proceed to Counter 2."
+Queue completed
+Queue History
+Previous visits
+Date and time
+Waiting duration
+Admin Dashboard
+Create queues
+Open/close queues
+Call next customer
+Skip customer
+View waiting customers
+Smart Features
+
+These make QueueLess stand out.
+
+AI Wait Time Prediction
+
+Instead of showing only your position:
+
+Position: 8
+
+Show:
+
+Estimated waiting time: 14 minutes
+
+The prediction can improve over time using historical data.
+
+Smart Queue Suggestions
+
+Example:
+
+Pharmacy A
+Wait: 45 mins
+
+Pharmacy B
+Wait: 8 mins
+
+Users can choose the faster option.
+
+QR Code Check-In
+
+Instead of searching for a queue:
+
+Scan QR code
+Automatically join queue
+
+Useful for hospitals, banks, restaurants, and government offices.
+
+Multiple Queues
+
+Users can monitor several queues simultaneously.
+
+Example:
+
+Bank
+Hospital
+Salon
+Virtual Ticket
+
+Instead of paper tickets:
+
+Ticket #A102
+Status:
+Waiting
+Business Features
+Branch Management
+
+Businesses with multiple locations can manage all branches.
+
+Example:
+
+Ikeja Branch
+Lekki Branch
+Yaba Branch
+
+Each has separate queues.
+
+Staff Accounts
+
+Different roles:
+
+Super Admin
+Manager
+Receptionist
+Analytics Dashboard
+
+Show charts like:
+
+Customers served today
+Average waiting time
+Peak hours
+Missed appointments
+Daily visitors
+Customer Feedback
+
+After service:
+
+⭐⭐⭐⭐☆
+
+Comments:
+
+Very fast service.
+
+Notification Features
+Email notifications
+SMS reminders
+Browser notifications
+WhatsApp reminders (future integration)
+Accessibility
+Dark mode
+Large text
+Screen reader support
+Multi-language support
+Security
+Password encryption
+JWT authentication
+Admin permissions
+Audit logs
+Future Features
+Appointment booking
+Payments before arrival
+Digital receipts
+AI chatbot
+Voice assistant
+Offline mode
+Calendar integration
+Pages (Frontend)
+Home
+
+Login
+
+Register
+
+Dashboard
+
+Join Queue
+
+My Ticket
+
+Queue Status
+
+Notifications
+
+Queue History
+
+Profile
+
+Settings
+
+Admin Dashboard
+
+Manage Queues
+
+Reports
+
+Help Center
+Backend Modules
+Authentication
+
+Users
+
+Queues
+
+Tickets
+
+Notifications
+
+Analytics
+
+Admin
+
+Reports
+
+Database
+
+API
+Database Tables
+Users
+
+Queues
+
+Tickets
+
+QueueHistory
+
+Notifications
+
+Admins
+
+Branches
+
+Feedback
+A feature that could make QueueLess unique
+
+One differentiator would be a "Leave the Queue Without Losing Your Spot" feature.
+
+Imagine you're waiting in a hospital queue. The app could allow you to step out briefly (for example, to get food or use the restroom) while tracking your location. If you move too far away, it warns you before your turn arrives. If you're nearby, it reminds you to return just in time. This gives users more flexibility while helping businesses reduce missed turns.
+
+That kind of intelligent queue management is less common than basic digital ticketing and could help QueueLess stand out.
+
+Overall, I'd recommend focusing first on a polished MVP with digital queues, live tracking, notifications, an admin dashboard, and queue analytics. Once those work reliably, you can add AI wait-time predictions, QR check-in, and the unique "leave without losing your spot" capability.
