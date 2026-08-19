@@ -3,4 +3,4 @@ try:
         content = file.read()
         print(content)
 except FileNotFoundError:
-    print("first us")
+    print("first us to be")
