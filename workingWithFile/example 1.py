@@ -3,4 +3,4 @@ try:
         content = file.read()
         print(content)
 except FileNotFoundError:
-    print("File not found. Please make sure the file")
+    print("File not found. Please make sure the")
