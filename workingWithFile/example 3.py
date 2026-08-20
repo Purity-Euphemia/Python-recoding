@@ -1,3 +1,7 @@
+
+import csv
+
+# Writing to a CSV file
 with open('example.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(["Name", "Age"])
