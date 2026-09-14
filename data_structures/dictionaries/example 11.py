@@ -1,0 +1,7 @@
+# Getting all values
+
+person = {"name": "Alice",
+    "age": 30,
+    "city": "New York"}
+
+print(person.values())
