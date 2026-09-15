@@ -4,4 +4,4 @@ class Student:
         self.age = age
 
     def study(self):
-        print(self.name "is studying")
+        print(self.name,"is studying")
