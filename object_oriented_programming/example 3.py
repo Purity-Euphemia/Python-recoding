@@ -5,3 +5,6 @@ class Student:
 
     def study(self):
         print(self.name,"is studying")
+
+Student1 = Student("John", 20)
+print(Student1.name)
