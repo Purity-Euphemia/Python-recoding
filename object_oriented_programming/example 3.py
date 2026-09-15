@@ -3,7 +3,5 @@ class Student:
         self.name = name
         self.age = age
 
-    def display_info(self):
-        print(f"Name: {self.name}")
-        print(f"Age: {self.age}")
-        print(f"Subjects: {', '.join(self.subjects)}")
+    def study(self):
+        print(self.name "is studying")
