@@ -9,3 +9,5 @@ class Student:
 Student1 = Student("John", 20)
 print(Student1.name)
 print(Student1.age)
+
+Student1.study()
