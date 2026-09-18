@@ -7,3 +7,7 @@ class Cat:
         print(self.name, "says Meow!")
 
 cat1 = Cat("Milo", "White")
+
+print(cat1.name)
+print(cat1.color)
+cat1.meow()
