@@ -8,3 +8,6 @@ class Customer:
 
 customer1 = Customer("Mary", "A101")
 customer2 = Customer("John", "A102")
+
+customer1.show_ticket()
+customer2.show_ticket()
