@@ -5,3 +5,9 @@ class Teacher:
 
     def teach(self):
         print(self.name, "is teaching", self.subject)
+
+teacher1 = Teacher("Mrs Grace", "Python")
+
+print(teacher1.name)
+print(teacher1.subject)
+teacher1.teach()
