@@ -10,3 +10,5 @@ food1 = Food("Pizza", 5000)
 
 print(food1.name)
 print(food1.price)
+
+food1.eat()
