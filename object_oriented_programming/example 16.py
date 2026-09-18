@@ -4,4 +4,4 @@ class Teacher:
         self.subject = subject
 
     def teach(self):
-        
+        print(self.name, "is teaching", self.subject)
