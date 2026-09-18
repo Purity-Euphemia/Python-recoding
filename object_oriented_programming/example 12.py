@@ -9,5 +9,8 @@ class ATM:
         else:
             print("Not enough balance")
 
-account = ATM(1000)
-account.withdraw(500)
+account = ATM(10000)
+
+account.withdraw(5000)
+
+print(account.balance)
