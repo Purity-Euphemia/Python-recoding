@@ -4,4 +4,8 @@ class Athlete:
         self.name = name
         self.sport = sport
 
+    def run(self):
+           print(self.name, "is running")
+   
+   
    
