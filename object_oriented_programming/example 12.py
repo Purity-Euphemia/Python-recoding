@@ -8,3 +8,6 @@ class ATM:
             print("Withdrawal successful")
         else:
             print("Not enough balance")
+
+account = ATM(1000)
+account.withdraw(500)
