@@ -7,4 +7,8 @@ class Wallet:
         self.money = self.money + amount
 
     def spend_money(self, amount):
-        self.money = self.money - amount
+        self.money = self.money - amount 
+
+wallet = Wallet(5000)
+
+print(wallet.money)
