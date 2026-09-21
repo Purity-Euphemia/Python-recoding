@@ -9,6 +9,14 @@ class Wallet:
     def spend_money(self, amount):
         self.money = self.money - amount 
 
-wallet = Wallet(5000)
+wallet1 = Wallet(5000)
 
-print(wallet.money)
+print(wallet1.money)
+
+wallet1.add_money(2000)
+
+print(wallet1.money)
+
+wallet1.spend_money(1000)
+
+print(wallet1.money)
