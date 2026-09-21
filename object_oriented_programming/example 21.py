@@ -4,4 +4,8 @@ class Book:
         self.title = title
         self.author = author
 
+    def read(self):
+        print("Reading", self.title)
+
+
     
