@@ -3,5 +3,4 @@ new_numbers = []
 
 for number in numbers:
     new_numbers.append(number)
-
 print(new_numbers)
