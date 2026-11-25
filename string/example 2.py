@@ -1,5 +1,5 @@
 char_1 = 'a'
-char_2 = 'b'
+char_2 = ' '
 
 # Concatenation
 print(ord((char_1)))
